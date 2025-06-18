@@ -8,10 +8,10 @@ This repository provides a complete pipeline for detecting groundnut (peanut) le
 | Attribute              | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
 | 📚 Framework           | PyTorch, Torchvision, Timm                                                   |
-| 🧠 Models Used         | EfficientNetB0, MobileNetV2, ShuffleNetV2, Vision Transformer (ViT)          |
+| 🧠 Models Used         | Vision Transformer (ViT)          |
 | 📷 Input Format        | JPEG Images (224×224 px)                                                     |
 | 🎯 Output              | 5-Class Image Classification                                                 |
-| 🧪 File                | `vit-code-pretrained.ipynb`                                                  |
+| 🧪 File                | `vit-code.ipynb`                                                  |
 | 📁 Dataset Source      | [Mendeley Dataset](https://data.mendeley.com/datasets/x6x5jkk873/1)          |
 
 </div>
@@ -151,8 +151,8 @@ Follow the steps below to clone and run this project on your machine:
 #### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/groundnut-leaf-disease-vit.git
-cd groundnut-leaf-disease-vit
+git clone https://github.com/suman2896/neemleaf-vit.git
+cd neemleaf-vit
 ```
 ---
 2️⃣ Install Required Libraries
@@ -187,7 +187,7 @@ The notebook covers:
 
 ## 📊 Features
 
-- Vision Transformer (ViT) model implemented from scratch  
+- Vision Transformer (ViT) model implemented for detection 
 - Patch embedding layer to convert images into token sequences  
 - Positional encoding and multi-head self-attention  
 - Configurable training loop with optimizer and loss function  
@@ -195,8 +195,7 @@ The notebook covers:
 - Confusion matrix and classification report  
 
 ## 🔧 Future Improvements
-
-- Add pretrained ViT support from Hugging Face or torchvision  
+  
 - Expand to larger datasets (CIFAR-100, ImageNet)  
 - Integrate with mixed precision training (AMP)  
 - Add experiment logging (TensorBoard, Weights & Biases)  
