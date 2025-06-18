@@ -194,13 +194,6 @@ The notebook covers:
 - Training and validation loss/accuracy plots  
 - Confusion matrix and classification report  
 
-## 🔧 Future Improvements
-  
-- Expand to larger datasets (CIFAR-100, ImageNet)  
-- Integrate with mixed precision training (AMP)  
-- Add experiment logging (TensorBoard, Weights & Biases)  
-- Deploy model via a web app (Streamlit/Flask)  
-
 
 ## 🤝 Contributing
 
