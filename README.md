@@ -1,2 +1,2 @@
-# neemleaf-vit
-This project leverages Vision Transformer (ViT) and deep learning techniques to detect and classify diseases in neem leaves from images. It aims to assist in early diagnosis of plant health issues using AI-powered image classification.
+# 🌿 Neem Leaf Disease Detection using Vision Transformer (ViT)
+This project focuses on the detection and classification of diseases in neem leaves using a Vision Transformer (ViT) deep learning model. The goal is to assist in early disease identification for better neem crop health and agricultural productivity.
