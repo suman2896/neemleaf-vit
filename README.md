@@ -202,9 +202,6 @@ The notebook covers:
 - Add experiment logging (TensorBoard, Weights & Biases)  
 - Deploy model via a web app (Streamlit/Flask)  
 
-## 🖼️ Sample Outputs
-
-_Add images here, such as training/validation accuracy plots, loss curves, and confusion matrices._
 
 ## 🤝 Contributing
 
